@@ -1,0 +1,103 @@
+{
+    "scenario" : 
+	{
+		"ID" : "1",
+		"patient" : 
+		{
+			"symptoms" : {
+				"eye" : [0, 1, 2, 3], 
+				"physical" : [0, 1, 2, 3],
+				"speech" : [0, 1, 2, 3]
+			}
+		},
+		"family" :{
+			"discussion" :
+			[
+				{
+					"ID" : "default",
+					"answer" : "Oh sorry I dont know"
+				},
+				{
+					"ID" : "1",
+					"question" : "What is the name of the patient?",
+					"answer" : "John"
+				},
+				{ 
+					"ID" : "2",
+					"question" : "What is the age of the patient?",
+					"answer" : "50"
+				},
+				{
+					"ID" : "3",
+					"question" : "What is the gender of the patient?",
+					"answer" : "Oh, he is a boy of course"
+				}					
+			]
+		},
+		"record" : {
+			"history" : "Mr Michel Clément né le 2.3.1957, domicilié à Lausanne. Marié et père d’un fils de 34 ans et d’une fille de 30 ans, les deux enfants sont aux études. Le fils habite avec ses parents et la fille en colocation. Ils vivent dans un appartement au 1er étage sans ascenseur avec environs 20 marches. Mme Clément vient de prendre sa retraite anticipée au début de l’année. Le couple est marié depuis 36 ans et vit selon un modèle patriarcal. Mr Clément a un style de vie sédentaire, ses hobbies sont la télévision, l’ordinateur et il va tous les jours prendre son café au bistrot en allant travailler. Il est électricien, indépendant, gère une entreprise de 5 employés. Dans la conjoncture économique actuelle et ses obligations familiales, Monsieur dit subir des tensions économiques et est sujet au stress. Mr Clément a un caractère indépendant et il tient à son autonomie. Il est droitier et porteur de lunettes pour presbytie. M. Clément ne présente pas d’allergie ni d’antécédents chirurgicaux. Son père à l’âge de 55ans est décédé d’un infarctus du myocarde. Le patient est fumeur actif de 10 cigarettes par jour depuis son adolescence (23UPA), sa consommation augmente lors de stress. Il est appareillé depuis 2 ans, pour des apnées du sommeil, avec un résultat de Apnealink+ à 26. Mr Clément arrive en ambulance au CHUV, il présente un hémi syndrome droit complet avec dysarthrie sévère. NIHSS 5 modifiée à 9 à 20h35. Au domicile, à 20h en présence de son fils, il y a manifesté un hémi syndrome droit d’apparition brutale : déviation de la commuissure labiale, déviation du regard, paralysie du bras droit, dysarthrie. Son fils a appelé les urgences.",
+			"size" : "1.80",
+			"weight" : "80",
+			"bmi" : "24.69",
+			"diagnosis" : 
+			[
+				{
+					"ID" : "1",
+					"Date" : "20.10.2013 20h35",
+					"paragraphs" : 
+					[
+						"AVC ischémique Sylvien gauche superficiel et profond hyperaigu (-3h), Hemi-syndrome F-B-C (Facial-Brachial-Crural) droit.", 
+						"IRM : AVC ischémique Sylvien (cérébral moyen) gauche superficiel et profond hyperaigu (-3h),Hemi-syndrome F-B-C droit, sur occlusion du siphon carotidien jusqu’à M1. Le patient est de suite transféré en salle d’angiographie. (=20h50)."
+					]
+				},
+				{
+					"ID" : "2",
+					"Date" : "21.10.2013 21h00",
+					"paragraphs" : 
+					[
+						"FRCV (Facteurs de risques cardiovasculaires) : Tabac actif 23UPA, Apnealink+ à 26, HCL à 1.9 mmol, pneumonie de broncho-aspiration lobaire G, état fébrile avec troubles de déglutition."
+					]
+				}
+			],
+			"systems" : 
+			[
+				"Cardio : pas de souffle, bradycarde.",
+			 	"Pulmonaire : mouvements respiratoires symétriques, auscultation : murmure vésiculaire sur les deux plages pulmonaires, bruits surajoutés : ronchis lobe inférieur gauche.",
+				"Uro-Abdominal : souple, indolore, pas de signe de Murphy. Pose de sonde vésicale aux urgences, diurèse 45ml/h.",
+				"Tégumentaire : Pas d’érythème."
+			]
+		},
+		"results":{
+			"diagnosis" :
+				{
+					"eye" : 3, 
+					"physical" : 4,
+					"speech" : 5
+				},
+			"descisions" :
+			[
+				{
+					"ID" : "1",
+					"descision" : "The patient is in a critical condition, he needs to be operated as soon as possible.",
+					"correctness" : 0.8
+				},
+				{
+					"ID" : "2",
+					"descision" : "The patient is in good condition",
+					"correctness" : 0.2
+				},
+				{
+					"ID" : "3",
+					"descision" : "Use a stent to open the artery",
+					"correctness" : 1
+				},
+				{
+					"ID" : "4",
+					"descision" : "Use a balloon to open the artery",
+					"correctness" : 0
+				}
+			]
+			
+		}
+	}
+}
