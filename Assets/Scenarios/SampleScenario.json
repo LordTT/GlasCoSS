@@ -4,11 +4,11 @@
 		"ID" : "1",
 		"patient" : 
 		{
-			"symptoms" : {
-				"eye" : [0, 1, 2, 3], 
-				"physical" : [0, 1, 2, 3],
-				"speech" : [0, 1, 2, 3]
-			}
+			
+			"eye" : 3, 
+			"physical" : 3,
+			"speech" : 2
+			
 		},
 		"family" :{
 			"discussion" :
