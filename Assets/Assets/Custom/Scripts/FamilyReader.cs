@@ -29,6 +29,8 @@ public class FamilyReader : MonoBehaviour
                 button.GetComponent<FamilyButtonScript>().answer = d.answer;
                 button.GetComponent<FamilyButtonScript>().question = d.question;
                 button.transform.SetParent(content.transform);
+                button.transform.SetLocalPositionAndRotation(new Vector3(0, 0, 0), new Quaternion(0, 0, 0, 0));
+                button.transform.localScale = new Vector3(1, 1, 1);
             }
         }
     }
