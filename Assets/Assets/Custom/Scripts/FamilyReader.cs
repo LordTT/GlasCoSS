@@ -16,6 +16,10 @@ public class FamilyReader : MonoBehaviour
     {
         JsonParsing parser = GameObject.Find("ScenarioReader").GetComponent<JsonParsing>();
         Discussion[] values = parser.rootObject.scenario.family.discussion;
+
+        if (values.Length == 0) {
+            gameObject.SetActive(false);
+        }
         
 
     
@@ -24,7 +28,7 @@ public class FamilyReader : MonoBehaviour
                 GameObject button = Instantiate(prefabButton);
                 button.GetComponent<FamilyButtonScript>().answer = d.answer;
                 button.GetComponent<FamilyButtonScript>().question = d.question;
-                button.transform.parent = content.transform;
+                button.transform.SetParent(content.transform);
             }
         }
     }
