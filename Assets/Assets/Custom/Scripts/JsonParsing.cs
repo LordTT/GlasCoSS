@@ -48,6 +48,30 @@ public class Scenario
     public Patient patient;
     public Family family;
     public Record record;
+    public Results results;
+}
+
+[System.Serializable]
+public class Diagnosis_result
+{
+    public int eye;
+    public int physical;
+    public int speech;
+}
+
+[System.Serializable]
+public class Descisions
+{
+    public string ID;
+    public string descision;
+    public float correctness;
+}
+
+[System.Serializable]
+public class Results
+{
+    public Diagnosis_result diagnosis_result;
+    public Descisions[] descisions;
 }
 
 [System.Serializable]

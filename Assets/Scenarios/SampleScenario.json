@@ -68,7 +68,7 @@
 			]
 		},
 		"results":{
-			"diagnosis" :
+			"diagnosis_result" :
 				{
 					"eye" : 3, 
 					"physical" : 4,
