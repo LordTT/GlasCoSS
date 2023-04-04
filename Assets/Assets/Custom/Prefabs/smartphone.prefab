@@ -601,6 +601,7 @@ GameObject:
   - component: {fileID: 3008713246794673572}
   - component: {fileID: 3008713246794673573}
   - component: {fileID: 4463828252229612997}
+  - component: {fileID: 2926020887324195821}
   m_Layer: 0
   m_Name: smartphone
   m_TagString: Untagged
@@ -843,6 +844,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1425d75595f83224ca94dbc6ffe512ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2926020887324195821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3008713246794673599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 275653f0ad492e04d953ed92e8321d04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4944518604355897347
 GameObject:
   m_ObjectHideFlags: 0
@@ -1072,7 +1085,7 @@ GameObject:
   - component: {fileID: 71468865684358019}
   - component: {fileID: 7759008955335797870}
   m_Layer: 0
-  m_Name: Canvas
+  m_Name: CanvasPhone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

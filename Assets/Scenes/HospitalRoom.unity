@@ -3179,6 +3179,12 @@ MonoBehaviour:
         bmi: 
         diagnosis: []
         systems: []
+      results:
+        diagnosis_result:
+          eye: 0
+          physical: 0
+          speech: 0
+        descisions: []
 --- !u!1 &1864163841
 GameObject:
   m_ObjectHideFlags: 0
@@ -4850,7 +4856,7 @@ PrefabInstance:
     - target: {fileID: 302119576054631485, guid: 474eee35474ad1b469c86fbfca60b64c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -391.49988
+      value: -391.49985
       objectReference: {fileID: 0}
     - target: {fileID: 342842051205987582, guid: 474eee35474ad1b469c86fbfca60b64c,
         type: 3}

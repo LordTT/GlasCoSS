@@ -18,7 +18,7 @@ public class PhoneReader : MonoBehaviour
             gameObject.SetActive(false);
         }
 
-        List<string> options = new List<string> {};
+        List<string> options = new List<string> {" - "};
 
         foreach (Descisions d in values)
         {
