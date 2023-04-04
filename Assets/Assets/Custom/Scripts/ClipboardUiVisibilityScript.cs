@@ -10,7 +10,7 @@ public class ClipboardUiVisibilityScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rig = GameObject.Find("XR Rig");
+        rig = GameObject.Find("Main Camera");
         ui = GameObject.Find("CanvasClipboard");
     }
 
@@ -18,7 +18,7 @@ public class ClipboardUiVisibilityScript : MonoBehaviour
     void Update()
     {
         float distance = Vector3.Distance(rig.transform.position, gameObject.transform.position);
-        if (distance > 1.5)
+        if (distance > 0.8)
         {
             ui.SetActive(false);
         }

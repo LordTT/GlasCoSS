@@ -10,14 +10,14 @@ public class FamilyUiVisibilityScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       rig = GameObject.Find("XR Rig");
+       rig = GameObject.Find("Main Camera");
         ui = GameObject.Find("Canvas");
     }
 
     // Update is called once per frame
     void Update()
     {
-        float distance = Vector3.Distance(rig.transform.position, gameObject.transform.position);
+        float distance = Vector3.Distance(rig.transform.position, gameObject.transform.position + new Vector3(0f, 1.7f, 0f));
         if (distance > 1.5)
         {
             ui.SetActive(false);
