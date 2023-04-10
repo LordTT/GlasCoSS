@@ -15,7 +15,7 @@ F:/Unity Projects/GlasCoSS
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-22031
+14593
 Successfully changed project path to: F:/Unity Projects/GlasCoSS
 F:/Unity Projects/GlasCoSS
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ F:/Unity Projects/GlasCoSS
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10072] Host "[IP] 192.168.1.131 [Port] 0 [Flags] 2 [Guid] 3110440051 [EditorId] 3110440051 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-V29AVRF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [25704] Host "[IP] 192.168.1.131 [Port] 0 [Flags] 2 [Guid] 2386122182 [EditorId] 2386122182 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-V29AVRF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [10072] Host "[IP] 192.168.1.131 [Port] 0 [Flags] 2 [Guid] 3110440051 [EditorId] 3110440051 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-V29AVRF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25704] Host "[IP] 192.168.1.131 [Port] 0 [Flags] 2 [Guid] 2386122182 [EditorId] 2386122182 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-V29AVRF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 228.04 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 28.28 ms.
+Refreshing native plugins compatible for Editor in 287.71 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.73 ms.
 Initialize engine version: 2021.3.20f1 (577897200b8b)
 [Subsystems] Discovering subsystems at path F:/Program Files/Unity Editor/2021.3.20f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path F:/Unity Projects/GlasCoSS/Assets
@@ -67,45 +67,533 @@ Initialize mono
 Mono path[0] = 'F:/Program Files/Unity Editor/2021.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'F:/Program Files/Unity Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'F:/Program Files/Unity Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/Program Files/Unity Editor/2021.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: F:/Program Files/Unity Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003210 seconds.
+Registered in 0.006103 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 330 ms
-Refreshing native plugins compatible for Editor in 133.82 ms, found 12 plugins.
+Android Extension - Scanning For ADB Devices 350 ms
+Refreshing native plugins compatible for Editor in 164.78 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.159 seconds
+- Completed reload, in  1.369 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1159ms)
-		BeginReloadAssembly (103ms)
+	ReloadAssembly (1370ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (953ms)
-			LoadAssemblies (102ms)
+		EndReloadAssembly (1076ms)
+			LoadAssemblies (114ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (158ms)
+			SetupTypeCache (171ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (707ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (784ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (420ms)
+				InitializePlatformSupportModulesInManaged (453ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (134ms)
+				RefreshPlugins (165ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (98ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009931 seconds.
+Registered in 0.007007 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Unity Projects\GlasCoSS\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image F:\Unity Projects\GlasCoSS\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 129.44 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in F:\Unity Projects\GlasCoSS\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in F:\Unity Projects\GlasCoSS\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <6e08e61cfda04255b3972ba7f0515fae>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.746 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1748ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1525ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (355ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (919ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (130ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (545ms)
+				ProcessInitializeOnLoadMethodAttributes (111ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.66 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 5850 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (93.9 MB). Loaded Objects now: 6284.
+Memory consumption went from 244.4 MB to 150.5 MB.
+Total: 6.638900 ms (FindLiveObjects: 0.562700 ms CreateObjectMapping: 0.457300 ms MarkObjects: 5.313800 ms  DeleteObjects: 0.303600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 30897.177793 seconds.
+  path: Assets/Assets/Hospital Room/Prefabs/Apple.prefab
+  artifactKey: Guid(388bbc18b29a4ff4c981c09ed908a5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Prefabs/Apple.prefab using Guid(388bbc18b29a4ff4c981c09ed908a5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1adbc90eeec1d65d251d235f9df9bbd9') in 0.308021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Hospital Room/Prefabs/Tv.prefab
+  artifactKey: Guid(51beba292b1500445a554f5da2965d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Prefabs/Tv.prefab using Guid(51beba292b1500445a554f5da2965d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796a339d03ad181dd9f0f4847ecb1f0b') in 0.030929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Assets/Hospital Room/Prefabs/Spoon.prefab
+  artifactKey: Guid(915d5580ed437774ba634930f126a43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Prefabs/Spoon.prefab using Guid(915d5580ed437774ba634930f126a43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c375a55f2f7afcc63164907be2c8fdc3') in 0.025835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Hospital Room/Prefabs/Ceiling lamp.prefab
+  artifactKey: Guid(b676aacff6e042449aae15c1b3b78d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Prefabs/Ceiling lamp.prefab using Guid(b676aacff6e042449aae15c1b3b78d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d99435739d255e54341714f59929a2') in 0.016069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Hospital Room/Prefabs/Switch 2.prefab
+  artifactKey: Guid(dad96cc147ef3e4498a9504fe83691b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Prefabs/Switch 2.prefab using Guid(dad96cc147ef3e4498a9504fe83691b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a404b74c7df2703f778d6c7b71f26019') in 0.017992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Hospital Room/Prefabs/Jar.prefab
+  artifactKey: Guid(459144693ed264f4e9a8cf0bb70485de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Prefabs/Jar.prefab using Guid(459144693ed264f4e9a8cf0bb70485de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3d0eca8c00310ff437b6073a55ed10') in 0.029270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Hospital Room/Prefabs/Clock.prefab
+  artifactKey: Guid(8459144a04ca5b94cae7dfddd46c05af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Prefabs/Clock.prefab using Guid(8459144a04ca5b94cae7dfddd46c05af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45667cbc2557997641ae9382d7fe4eec') in 0.023664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/Hospital Room/Prefabs/Building.prefab
+  artifactKey: Guid(e144076df9190de4dbfae4439a4f8b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Prefabs/Building.prefab using Guid(e144076df9190de4dbfae4439a4f8b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd6d7fe6105a88888ec6024481f3333') in 0.024687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Hospital Room/Prefabs/Hospital map.prefab
+  artifactKey: Guid(d5eac6b8dbc053b4e957429c9e18682b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Prefabs/Hospital map.prefab using Guid(d5eac6b8dbc053b4e957429c9e18682b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5baab71582db6f4f0ebeffa02b677922') in 0.026235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Hospital Room/Prefabs/Window.prefab
+  artifactKey: Guid(d779eb36a76d97e41ac76260ba639181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Prefabs/Window.prefab using Guid(d779eb36a76d97e41ac76260ba639181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7bcba29c116e71ad4b98956c2e2a7e') in 0.028973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Assets/Hospital Room/Prefabs/Book.prefab
+  artifactKey: Guid(fe8176aa40c72614fa21eec75229cc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Prefabs/Book.prefab using Guid(fe8176aa40c72614fa21eec75229cc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf9e01207028f2768499c7eb1c2f2e3') in 0.029670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Hospital Room/Prefabs/Door 2.prefab
+  artifactKey: Guid(aefe586dcf46271418406dc106ac8e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Prefabs/Door 2.prefab using Guid(aefe586dcf46271418406dc106ac8e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5069175667e745092beb19b98ff657a0') in 0.029312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/Hospital Room/Prefabs/Structure.prefab
+  artifactKey: Guid(9eed6d07aaee84b448b61a7e42f9cde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Prefabs/Structure.prefab using Guid(9eed6d07aaee84b448b61a7e42f9cde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc64888d4213be7c8f7e95049822cf8') in 0.012876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/Hospital Room/Prefabs/Glass.prefab
+  artifactKey: Guid(7fabda9f291934a4e98956d6c4907995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Prefabs/Glass.prefab using Guid(7fabda9f291934a4e98956d6c4907995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e71fd064815a38f3eb02777e51783b') in 0.024942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Hospital Room/Prefabs/Door wall.prefab
+  artifactKey: Guid(c26e5e269b00392438540d063caf09c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Prefabs/Door wall.prefab using Guid(c26e5e269b00392438540d063caf09c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa61d82f937e1272a917d079b0a6324') in 0.027511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/Hospital Room/Prefabs/Grating.prefab
+  artifactKey: Guid(4db618c02455fed47b97e0944ece83d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Prefabs/Grating.prefab using Guid(4db618c02455fed47b97e0944ece83d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040e3ea831d0ac15c3ac22b71b95081c') in 0.326086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets/Hospital Room/Prefabs/Ceiling.prefab
+  artifactKey: Guid(9640cc1184c65b840a8d921e7cfdf237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Prefabs/Ceiling.prefab using Guid(9640cc1184c65b840a8d921e7cfdf237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d85486eabad4bde939c4fd125e81150') in 0.026845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/Hospital Room/Prefabs/Hospital trolley.prefab
+  artifactKey: Guid(4eafdfafe6492d6498c9a5887dbe36a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Prefabs/Hospital trolley.prefab using Guid(4eafdfafe6492d6498c9a5887dbe36a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a11dfa088a35dbe71f54ea25edf5cd1') in 0.028537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/Hospital Room/Prefabs/Curtains.prefab
+  artifactKey: Guid(046cf3aab72dc0c46b8696b0878953e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Prefabs/Curtains.prefab using Guid(046cf3aab72dc0c46b8696b0878953e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf60a88f03e5379aa96246330053052') in 0.013009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Hospital Room/Prefabs/Towel.prefab
+  artifactKey: Guid(b145c1b505dbe2940bc8aeec8c124de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Prefabs/Towel.prefab using Guid(b145c1b505dbe2940bc8aeec8c124de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f868c412753a62231daa26545995509c') in 0.062024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/Hospital Room/Prefabs/Wall 1.prefab
+  artifactKey: Guid(efa23fa8c8618184399f50d86a4f7a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Prefabs/Wall 1.prefab using Guid(efa23fa8c8618184399f50d86a4f7a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e381cd6b96c29bce8c5e826c2d0e05ae') in 0.024650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Hospital Room/Prefabs/Iv pole.prefab
+  artifactKey: Guid(09fd11737ba08ff4ca3076e51cb315cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Prefabs/Iv pole.prefab using Guid(09fd11737ba08ff4ca3076e51cb315cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f8e51d6f50a93edf12e531b74724ec') in 0.273934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/Hospital Room/Prefabs/Switch.prefab
+  artifactKey: Guid(26659fb6bb74c8d44974c5298eac6c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Prefabs/Switch.prefab using Guid(26659fb6bb74c8d44974c5298eac6c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5d3b80622f866d96deed099a81fe30') in 0.011970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.003617 seconds.
+  path: Assets/Assets/Hospital Room/Textures/Asphalt.png
+  artifactKey: Guid(e25d9943523007d48b99bcc7aefb605f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Textures/Asphalt.png using Guid(e25d9943523007d48b99bcc7aefb605f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd1297ced19415f698b24ab1d87c6f2') in 0.046191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Hospital Room/Textures/grating N.png
+  artifactKey: Guid(30f9591ed8ed460438c0fc65f9efa347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Textures/grating N.png using Guid(30f9591ed8ed460438c0fc65f9efa347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99579e91a114efa82cec06d212474349') in 0.027033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Hospital Room/Textures/iv pole.png
+  artifactKey: Guid(bcc3ba2a3eed81642a5de2d09d7e03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Textures/iv pole.png using Guid(bcc3ba2a3eed81642a5de2d09d7e03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a794355388e2fe8052e16af22fd85864') in 0.026594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/Hospital Room/Textures/soupcup.png
+  artifactKey: Guid(948137e550846924383c43e724cabdfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Textures/soupcup.png using Guid(948137e550846924383c43e724cabdfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2202803851938c5b1bdd5a653bd9352c') in 0.024369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/Hospital Room/Textures/plant.png
+  artifactKey: Guid(95ce1b090db86eb49920affcc84f316a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Textures/plant.png using Guid(95ce1b090db86eb49920affcc84f316a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80769655b01b130eee0a35c88237846') in 0.022252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/Hospital Room/Textures/tv.png
+  artifactKey: Guid(535804a9e3814f4489489408ff05f5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Textures/tv.png using Guid(535804a9e3814f4489489408ff05f5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c2dcfb5e7a9f73a5cd4ecd166fb805') in 0.019480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Hospital Room/Textures/Floor.png
+  artifactKey: Guid(14e5107b67dd74a40a1ec83488e589ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Textures/Floor.png using Guid(14e5107b67dd74a40a1ec83488e589ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7526174142f989739a89d62dcc460cd') in 0.018202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Hospital Room/Textures/window.png
+  artifactKey: Guid(763baf3aceb5a5b4aa0d0ea558c2bcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Textures/window.png using Guid(763baf3aceb5a5b4aa0d0ea558c2bcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44880dc0b3177090a0e6245cf8f46635') in 0.021401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Hospital Room/Textures/clipboard.png
+  artifactKey: Guid(3639c9401a26f3d41b5f9dcf97e592a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Textures/clipboard.png using Guid(3639c9401a26f3d41b5f9dcf97e592a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4414a84e1c920d854ba0776aa6383539') in 0.020896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/Hospital Room/Textures/medicine 1.png
+  artifactKey: Guid(c98a76e31b3cf7140ae6d95109a738e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Textures/medicine 1.png using Guid(c98a76e31b3cf7140ae6d95109a738e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbeabdcb9d612d4497c95b304a68dce4') in 0.018989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/Hospital Room/Textures/Floor N.png
+  artifactKey: Guid(97f825a7010d9854fa01795e488f25fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Textures/Floor N.png using Guid(97f825a7010d9854fa01795e488f25fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa836b36f3b4a13710f66b913c7b9d9e') in 0.019461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Hospital Room/Textures/hand sanitizer.png
+  artifactKey: Guid(fbd66eb19526a84418a19e9664a67d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Textures/hand sanitizer.png using Guid(fbd66eb19526a84418a19e9664a67d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9564bea923abf15f707d5fb17e6589b8') in 0.019525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/Hospital Room/Textures/medicine.png
+  artifactKey: Guid(d3988c6559a7ec649beeccfe0898d146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Textures/medicine.png using Guid(d3988c6559a7ec649beeccfe0898d146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a90917d4e1918c799f316ecdad71843') in 0.021781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/Hospital Room/Textures/pillow.png
+  artifactKey: Guid(74221296edd77584b9714828bc929872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Textures/pillow.png using Guid(74221296edd77584b9714828bc929872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd301a1ec643f35ade930d01d4d34a0') in 0.022004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Hospital Room/Textures/Ceiling.png
+  artifactKey: Guid(f878ebbbcda33b443b388a9b255b4bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Textures/Ceiling.png using Guid(f878ebbbcda33b443b388a9b255b4bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e9d2fc5e1fa9a88d4c9001638b90ad') in 0.023029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Hospital Room/Textures/door.png
+  artifactKey: Guid(cf7547b0e16b0dd4e89822a01ccdec3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Hospital Room/Textures/door.png using Guid(cf7547b0e16b0dd4e89822a01ccdec3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec3c1c75186d12b7ffa2da0899d31d3') in 0.020522 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009343 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Unity Projects\GlasCoSS\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image F:\Unity Projects\GlasCoSS\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in F:\Unity Projects\GlasCoSS\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in F:\Unity Projects\GlasCoSS\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <6e08e61cfda04255b3972ba7f0515fae>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.431 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1432ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1170ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (325ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (631ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (461ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.98 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 5681 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (0.7 MB). Loaded Objects now: 6345.
+Memory consumption went from 248.9 MB to 248.2 MB.
+Total: 4.300500 ms (FindLiveObjects: 0.562700 ms CreateObjectMapping: 0.511500 ms MarkObjects: 2.924800 ms  DeleteObjects: 0.300600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007280 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Unity Projects\GlasCoSS\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image F:\Unity Projects\GlasCoSS\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in F:\Unity Projects\GlasCoSS\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in F:\Unity Projects\GlasCoSS\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <6e08e61cfda04255b3972ba7f0515fae>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.504 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1505ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1266ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (357ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (655ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (480ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.93 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 5682 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (0.7 MB). Loaded Objects now: 6349.
+Memory consumption went from 249.0 MB to 248.3 MB.
+Total: 4.836300 ms (FindLiveObjects: 0.442900 ms CreateObjectMapping: 0.374900 ms MarkObjects: 3.671400 ms  DeleteObjects: 0.345300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.38 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (0.7 MB). Loaded Objects now: 6349.
+Memory consumption went from 117.2 MB to 116.5 MB.
+Total: 4.033100 ms (FindLiveObjects: 0.460800 ms CreateObjectMapping: 0.432800 ms MarkObjects: 2.813300 ms  DeleteObjects: 0.324900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.10 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (0.7 MB). Loaded Objects now: 6349.
+Memory consumption went from 115.8 MB to 115.1 MB.
+Total: 5.170500 ms (FindLiveObjects: 0.563500 ms CreateObjectMapping: 0.511700 ms MarkObjects: 3.719800 ms  DeleteObjects: 0.374400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
