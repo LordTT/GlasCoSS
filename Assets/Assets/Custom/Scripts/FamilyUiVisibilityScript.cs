@@ -11,7 +11,7 @@ public class FamilyUiVisibilityScript : MonoBehaviour
     void Start()
     {
        rig = GameObject.Find("Main Camera");
-        ui = GameObject.Find("Canvas");
+        ui = GameObject.Find("FamilyCanvas");
     }
 
     // Update is called once per frame

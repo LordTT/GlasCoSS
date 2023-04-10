@@ -216,7 +216,7 @@ GameObject:
   - component: {fileID: 5718908530041724171}
   - component: {fileID: 4355537831681930929}
   m_Layer: 0
-  m_Name: Canvas
+  m_Name: FamilyCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2879,7 +2879,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1289095516554584077}
   m_HandleRect: {fileID: 787473993599832179}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -3092,7 +3092,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000030517578, y: -391.5001}
+  m_AnchoredPosition: {x: 0.000030517578, y: -391.49997}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &242364696137892343
