@@ -744,7 +744,7 @@ GameObject:
   m_Component:
   - component: {fileID: 171503426119887205}
   m_Layer: 0
-  m_Name: Verbale
+  m_Name: Speech
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1189,7 +1189,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7536325176762476753}
   m_Layer: 0
-  m_Name: Moteur
+  m_Name: Physical
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1396,6 +1396,7 @@ GameObject:
   - component: {fileID: 2513476303179628126}
   - component: {fileID: 8924720852977456631}
   - component: {fileID: 3409726468616954207}
+  - component: {fileID: 6278246227945046383}
   m_Layer: 0
   m_Name: CanvasClipboard
   m_TagString: Untagged
@@ -1490,6 +1491,18 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RaycastTriggerInteraction: 1
+--- !u!114 &6278246227945046383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4173213078631187271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be342eb9cecb0d44499814b94c634dba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4366009244235665899
 GameObject:
   m_ObjectHideFlags: 0
@@ -2219,19 +2232,19 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: "Ob\xE9it aux commandes : 6"
-      m_Image: {fileID: 0}
-    - m_Text: 'Localisation : 5 '
-      m_Image: {fileID: 0}
-    - m_Text: 'Flexion normale : 4'
-      m_Image: {fileID: 0}
-    - m_Text: 'Flexion anormale : 3'
-      m_Image: {fileID: 0}
-    - m_Text: 'Extension : 2 '
+    - m_Text: 'Pas testable '
       m_Image: {fileID: 0}
     - m_Text: 'Aucun : 1 '
       m_Image: {fileID: 0}
-    - m_Text: 'Pas testable '
+    - m_Text: 'Extension : 2 '
+      m_Image: {fileID: 0}
+    - m_Text: 'Flexion anormale : 3'
+      m_Image: {fileID: 0}
+    - m_Text: 'Flexion normale : 4'
+      m_Image: {fileID: 0}
+    - m_Text: 'Localisation : 5 '
+      m_Image: {fileID: 0}
+    - m_Text: "Ob\xE9it aux commandes : 6"
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2720,7 +2733,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Spontan\xE9e : 4"
+  m_text: 'Pas testable '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2956,15 +2969,15 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: "Spontan\xE9e : 4"
-      m_Image: {fileID: 0}
-    - m_Text: "A l\u2019appel : 3 "
-      m_Image: {fileID: 0}
-    - m_Text: 'A la pression : 2 '
+    - m_Text: 'Pas testable '
       m_Image: {fileID: 0}
     - m_Text: 'Aucune : 1 '
       m_Image: {fileID: 0}
-    - m_Text: 'Pas testable '
+    - m_Text: 'A la pression : 2 '
+      m_Image: {fileID: 0}
+    - m_Text: "A l\u2019appel : 3 "
+      m_Image: {fileID: 0}
+    - m_Text: "Spontan\xE9e : 4"
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3399,17 +3412,17 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: "Orient\xE9e : 5"
-      m_Image: {fileID: 0}
-    - m_Text: 'Confuse : 4 '
-      m_Image: {fileID: 0}
-    - m_Text: "Incoh\xE9rente/mots : 3 "
-      m_Image: {fileID: 0}
-    - m_Text: "Incompr\xE9hensible/sons : 2 "
+    - m_Text: 'Pas testable '
       m_Image: {fileID: 0}
     - m_Text: "Aucune r\xE9ponse : 1 "
       m_Image: {fileID: 0}
-    - m_Text: 'Pas testable '
+    - m_Text: "Incompr\xE9hensible/sons : 2 "
+      m_Image: {fileID: 0}
+    - m_Text: "Incoh\xE9rente/mots : 3 "
+      m_Image: {fileID: 0}
+    - m_Text: 'Confuse : 4 '
+      m_Image: {fileID: 0}
+    - m_Text: "Orient\xE9e : 5"
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3569,7 +3582,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ob\xE9it aux commandes : 6"
+  m_text: 'Pas testable '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3815,7 +3828,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2342116293530362735}
   m_Layer: 0
-  m_Name: Yeux
+  m_Name: Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4124,7 +4137,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Orient\xE9e : 5"
+  m_text: 'Pas testable '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

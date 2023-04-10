@@ -43,7 +43,17 @@ public class PhoneReader : MonoBehaviour
     }
     void DropdownValueChanged(TMP_Dropdown change)
     {
-        hud.GetComponent<HudScript>().Notify("This correctness has a value of " + Math.Round(correctness[change.value], 2), 3);
+        if (correctness[change.value] < 0.2 ){
+            hud.GetComponent<HudScript>().Notify("Cette decision est grave", 3);
+        } else if (correctness[change.value] < 0.5 ){
+            hud.GetComponent<HudScript>().Notify("Cette decision est mauvaise", 3);
+        } else if (correctness[change.value] < 0.8 ){
+            hud.GetComponent<HudScript>().Notify("Cette decision est moyenne", 3);
+        } else if (correctness[change.value] < 1.0 ){
+            hud.GetComponent<HudScript>().Notify("Cette decision est bonne", 3);
+        } else if (correctness[change.value] == 1.0 ){
+            hud.GetComponent<HudScript>().Notify("Cette decision est parfaite", 3);
+        }
     }
 }
 
