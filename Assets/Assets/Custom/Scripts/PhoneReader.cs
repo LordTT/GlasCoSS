@@ -44,15 +44,15 @@ public class PhoneReader : MonoBehaviour
     void DropdownValueChanged(TMP_Dropdown change)
     {
         if (correctness[change.value] < 0.2 ){
-            hud.GetComponent<HudScript>().Notify("Cette decision est grave", 3);
+            hud.GetComponent<HudScript>().Notify("Cette decision est grave", 2);
         } else if (correctness[change.value] < 0.5 ){
-            hud.GetComponent<HudScript>().Notify("Cette decision est mauvaise", 3);
+            hud.GetComponent<HudScript>().Notify("Cette decision est mauvaise", 2);
         } else if (correctness[change.value] < 0.8 ){
-            hud.GetComponent<HudScript>().Notify("Cette decision est moyenne", 3);
+            hud.GetComponent<HudScript>().Notify("Cette decision est moyenne", 2);
         } else if (correctness[change.value] < 1.0 ){
-            hud.GetComponent<HudScript>().Notify("Cette decision est bonne", 3);
+            hud.GetComponent<HudScript>().Notify("Cette decision est bonne", 2);
         } else if (correctness[change.value] == 1.0 ){
-            hud.GetComponent<HudScript>().Notify("Cette decision est parfaite", 3);
+            hud.GetComponent<HudScript>().Notify("Cette decision est parfaite", 2);
         }
     }
 }

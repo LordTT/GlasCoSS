@@ -43,33 +43,33 @@ public class ClipboardReaderScript : MonoBehaviour
     {
         if (change.value == eyeValue)
         {
-            hud.GetComponent<HudScript>().Notify("L'ouverture des yeux a �t� correctement diagnosiqu�e", 3);
+            hud.GetComponent<HudScript>().Notify("L'ouverture des yeux a ete correctement diagnosiquee", 2);
         }
         else 
         {
-            hud.GetComponent<HudScript>().Notify("L'ouverture des yeux n'a pas �t� correctement diagnosiqu�e", 3);
+            hud.GetComponent<HudScript>().Notify("L'ouverture des yeux n'a pas ete correctement diagnosiquee", 2);
         }
     }
     void PhysDropdownValueChanged(TMP_Dropdown change)
     {
         if (change.value == physValue)
         {
-            hud.GetComponent<HudScript>().Notify("La r�ponse moteur a �t� correctement diagnosiqu�e", 3);
+            hud.GetComponent<HudScript>().Notify("La reponse moteur a ete correctement diagnosiquee", 2);
         }
         else
         {
-            hud.GetComponent<HudScript>().Notify("La r�ponse moteur n'a pas �t� correctement diagnosiqu�e", 3);
+            hud.GetComponent<HudScript>().Notify("La reponse moteur n'a pas ete correctement diagnosiquee", 2);
         }
     }
     void SpeechDropdownValueChanged(TMP_Dropdown change)
     {
-        if (change.value == physValue)
+        if (change.value == speechValue)
         {
-            hud.GetComponent<HudScript>().Notify("La r�ponse verbale a �t� correctement diagnosiqu�e", 3);
+            hud.GetComponent<HudScript>().Notify("La reponse verbale a ete correctement diagnosiquee", 2);
         }
         else
         {
-            hud.GetComponent<HudScript>().Notify("La r�ponse verbale n'a pas �t� correctement diagnosiqu�e", 3);
+            hud.GetComponent<HudScript>().Notify("La reponse verbale n'a pas ete correctement diagnosiquee", 2);
         }
     }
 }
