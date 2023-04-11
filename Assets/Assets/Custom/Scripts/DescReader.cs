@@ -13,7 +13,7 @@ public class DescReader : MonoBehaviour
         m_TextComponent = GetComponent<TMP_Text>();
         JsonParsing parser = GameObject.Find("ScenarioReader").GetComponent<JsonParsing>();
         string text = parser.rootObject.scenario.record.history.ToString();
-        m_TextComponent.text = "Decription :\n" + text;
+        m_TextComponent.text = "Decription :\n\n" + text;
 
     }
 
