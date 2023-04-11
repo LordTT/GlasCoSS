@@ -19,18 +19,18 @@
 				},
 				{
 					"ID" : "1",
-					"question" : "What is the name of the patient?",
-					"answer" : "John"
+					"question" : "Quel est le nom du patient ?",
+					"answer" : "Son nom est John"
 				},
 				{ 
 					"ID" : "2",
-					"question" : "What is the age of the patient?",
-					"answer" : "50"
+					"question" : "Quel age a le patient ?",
+					"answer" : "Il a 30 ans"
 				},
 				{
 					"ID" : "3",
-					"question" : "What is the gender of the patient?",
-					"answer" : "Oh, he is a boy of course"
+					"question" : "Quelle langue parle le patient ?",
+					"answer" : "Il parle anglais"
 				}					
 			]
 		},
@@ -78,22 +78,22 @@
 			[
 				{
 					"ID" : "1",
-					"descision" : "The patient is in a critical condition, he needs to be operated as soon as possible.",
+					"descision" : "Il faut tout de suite operer le patient",
 					"correctness" : 0.8
 				},
 				{
 					"ID" : "2",
-					"descision" : "The patient is in good condition",
+					"descision" : "Le patient est dans de bonnes conditions",
 					"correctness" : 0.2
 				},
 				{
 					"ID" : "3",
-					"descision" : "Use a stent to open the artery",
+					"descision" : "Il faut faire une angiographie",
 					"correctness" : 1
 				},
 				{
 					"ID" : "4",
-					"descision" : "Use a balloon to open the artery",
+					"descision" : "Il faut injecter du TPA",
 					"correctness" : 0
 				}
 			]
