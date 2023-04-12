@@ -17,7 +17,7 @@ public class HeadInteractionScript : MonoBehaviour
     // Update is called once per frame
     public void Interact()
     {
-        hud.GetComponent<HudScript>().Notify("Interaction yeux : " + value , 2);
+        hud.GetComponent<HudScript>().Notify("Interaction yeux : " + value , 2, Color.green);
 
     }
 }

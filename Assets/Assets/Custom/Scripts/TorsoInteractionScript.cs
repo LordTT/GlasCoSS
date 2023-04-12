@@ -17,7 +17,7 @@ public class TorsoInteractionScript : MonoBehaviour
     // Update is called once per frame
     public void Interact()
     {
-        hud.GetComponent<HudScript>().Notify("Interaction verbale : " + value , 2);
+        hud.GetComponent<HudScript>().Notify("Interaction verbale : " + value , 2, Color.green);
 
     }
 }

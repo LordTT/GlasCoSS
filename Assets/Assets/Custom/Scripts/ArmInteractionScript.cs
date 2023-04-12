@@ -17,7 +17,7 @@ public class ArmInteractionScript : MonoBehaviour
     // Update is called once per frame
     public void Interact()
     {
-        hud.GetComponent<HudScript>().Notify("Interaction moteur : " + value , 2);
+        hud.GetComponent<HudScript>().Notify("Interaction moteur : " + value , 2, Color.green);
 
     }
 }

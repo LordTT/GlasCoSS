@@ -40,19 +40,21 @@ public class PhoneReader : MonoBehaviour
             DropdownValueChanged(dropdown);
         });
 
+        gameObject.SetActive(false);
+
     }
     void DropdownValueChanged(TMP_Dropdown change)
     {
         if (correctness[change.value] < 0.2 ){
-            hud.GetComponent<HudScript>().Notify("Cette decision est grave", 2);
+            hud.GetComponent<HudScript>().Notify("Cette decision est grave", 2, Color.red);
         } else if (correctness[change.value] < 0.5 ){
-            hud.GetComponent<HudScript>().Notify("Cette decision est mauvaise", 2);
+            hud.GetComponent<HudScript>().Notify("Cette decision est mauvaise", 2, Color.red);
         } else if (correctness[change.value] < 0.8 ){
-            hud.GetComponent<HudScript>().Notify("Cette decision est moyenne", 2);
+            hud.GetComponent<HudScript>().Notify("Cette decision est moyenne", 2, Color.yellow);
         } else if (correctness[change.value] < 1.0 ){
-            hud.GetComponent<HudScript>().Notify("Cette decision est bonne", 2);
+            hud.GetComponent<HudScript>().Notify("Cette decision est bonne", 2, Color.green);
         } else if (correctness[change.value] == 1.0 ){
-            hud.GetComponent<HudScript>().Notify("Cette decision est parfaite", 2);
+            hud.GetComponent<HudScript>().Notify("Cette decision est parfaite", 2, Color.green);
         }
     }
 }

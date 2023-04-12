@@ -38,38 +38,40 @@ public class ClipboardReaderScript : MonoBehaviour
             SpeechDropdownValueChanged(dropdownSpeech);
         });
 
+        gameObject.SetActive(false);
+
     }
     void EyeDropdownValueChanged(TMP_Dropdown change)
     {
         if (change.value == eyeValue)
         {
-            hud.GetComponent<HudScript>().Notify("L'ouverture des yeux a ete correctement diagnosiquee", 2);
+            hud.GetComponent<HudScript>().Notify("L'ouverture des yeux a ete correctement diagnosiquee", 2, Color.green);
         }
         else 
         {
-            hud.GetComponent<HudScript>().Notify("L'ouverture des yeux n'a pas ete correctement diagnosiquee", 2);
+            hud.GetComponent<HudScript>().Notify("L'ouverture des yeux n'a pas ete correctement diagnosiquee", 2, Color.red);
         }
     }
     void PhysDropdownValueChanged(TMP_Dropdown change)
     {
         if (change.value == physValue)
         {
-            hud.GetComponent<HudScript>().Notify("La reponse moteur a ete correctement diagnosiquee", 2);
+            hud.GetComponent<HudScript>().Notify("La reponse moteur a ete correctement diagnosiquee", 2, Color.green);
         }
         else
         {
-            hud.GetComponent<HudScript>().Notify("La reponse moteur n'a pas ete correctement diagnosiquee", 2);
+            hud.GetComponent<HudScript>().Notify("La reponse moteur n'a pas ete correctement diagnosiquee", 2, Color.red);
         }
     }
     void SpeechDropdownValueChanged(TMP_Dropdown change)
     {
         if (change.value == speechValue)
         {
-            hud.GetComponent<HudScript>().Notify("La reponse verbale a ete correctement diagnosiquee", 2);
+            hud.GetComponent<HudScript>().Notify("La reponse verbale a ete correctement diagnosiquee", 2, Color.green);
         }
         else
         {
-            hud.GetComponent<HudScript>().Notify("La reponse verbale n'a pas ete correctement diagnosiquee", 2);
+            hud.GetComponent<HudScript>().Notify("La reponse verbale n'a pas ete correctement diagnosiquee", 2, Color.red);
         }
     }
 }
