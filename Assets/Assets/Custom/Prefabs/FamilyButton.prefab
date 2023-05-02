@@ -148,6 +148,7 @@ GameObject:
   - component: {fileID: 4658141305956377900}
   - component: {fileID: 3147935190435829037}
   - component: {fileID: 140411529232463333}
+  - component: {fileID: 5667357713405927863}
   m_Layer: 0
   m_Name: FamilyButton
   m_TagString: Untagged
@@ -272,3 +273,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: question
   answer: answer
+--- !u!114 &5667357713405927863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2608969686993817797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 140411529232463333}
+          m_TargetAssemblyTypeName: FamilyButtonScript, Assembly-CSharp
+          m_MethodName: TaskOnClick
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2

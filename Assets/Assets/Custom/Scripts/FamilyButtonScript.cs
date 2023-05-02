@@ -21,7 +21,7 @@ public class FamilyButtonScript : MonoBehaviour
         btn.onClick.AddListener(TaskOnClick);
     }
 
-    void TaskOnClick()
+    public void TaskOnClick()
     {
         textTarget.text = answer;
     }
