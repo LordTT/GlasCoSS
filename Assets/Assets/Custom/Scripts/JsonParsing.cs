@@ -60,7 +60,31 @@ public class Diagnosis_result
 }
 
 [System.Serializable]
-public class Descisions
+public class S
+{
+    public string ID;
+    public string descision;
+    public float correctness;
+}
+
+[System.Serializable]
+public class C
+{
+    public string ID;
+    public string descision;
+    public float correctness;
+}
+
+[System.Serializable]
+public class A
+{
+    public string ID;
+    public string descision;
+    public float correctness;
+}
+
+[System.Serializable]
+public class R
 {
     public string ID;
     public string descision;
@@ -71,7 +95,11 @@ public class Descisions
 public class Results
 {
     public Diagnosis_result diagnosis_result;
-    public Descisions[] descisions;
+    public S[] s;
+    public C[] c;
+    public A[] a;
+    public R[] r;
+
 }
 
 [System.Serializable]

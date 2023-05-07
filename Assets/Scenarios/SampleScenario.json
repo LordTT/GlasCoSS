@@ -74,7 +74,76 @@
 					"physical" : 4,
 					"speech" : 5
 				},
-			"descisions" :
+			"s" :
+			[
+				{
+					"ID" : "1",
+					"descision" : "Il faut tout de suite operer le patient",
+					"correctness" : 0.8
+				},
+				{
+					"ID" : "2",
+					"descision" : "Le patient est dans de bonnes conditions",
+					"correctness" : 0.2
+				},
+				{
+					"ID" : "3",
+					"descision" : "Il faut faire une angiographie",
+					"correctness" : 1
+				},
+				{
+					"ID" : "4",
+					"descision" : "Il faut injecter du TPA",
+					"correctness" : 0
+				}
+			],
+			"c" :
+			[
+				{
+					"ID" : "1",
+					"descision" : "Il faut tout de suite operer le patient",
+					"correctness" : 0.8
+				},
+				{
+					"ID" : "2",
+					"descision" : "Le patient est dans de bonnes conditions",
+					"correctness" : 0.2
+				},
+				{
+					"ID" : "3",
+					"descision" : "Il faut faire une angiographie",
+					"correctness" : 1
+				},
+				{
+					"ID" : "4",
+					"descision" : "Il faut injecter du TPA",
+					"correctness" : 0
+				}
+			],
+			"a" :
+			[
+				{
+					"ID" : "1",
+					"descision" : "AAAAAAAAAAAAAAA",
+					"correctness" : 0.8
+				},
+				{
+					"ID" : "2",
+					"descision" : "Le patient est dans de bonnes conditions",
+					"correctness" : 0.2
+				},
+				{
+					"ID" : "3",
+					"descision" : "Il faut faire une angiographie",
+					"correctness" : 1
+				},
+				{
+					"ID" : "4",
+					"descision" : "Il faut injecter du TPA",
+					"correctness" : 0
+				}
+			],
+			"r" :
 			[
 				{
 					"ID" : "1",

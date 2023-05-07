@@ -3054,7 +3054,7 @@ PrefabInstance:
     - target: {fileID: 6598815579406187037, guid: 9f5a24a380916d14db9775daab4fe333,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
@@ -4881,7 +4881,10 @@ MonoBehaviour:
           eye: 0
           physical: 0
           speech: 0
-        descisions: []
+        s: []
+        c: []
+        a: []
+        r: []
 --- !u!1 &1754123650
 GameObject:
   m_ObjectHideFlags: 0
@@ -7200,7 +7203,7 @@ PrefabInstance:
     - target: {fileID: 302119576054631485, guid: 474eee35474ad1b469c86fbfca60b64c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -391.50003
+      value: -391.5
       objectReference: {fileID: 0}
     - target: {fileID: 342842051205987582, guid: 474eee35474ad1b469c86fbfca60b64c,
         type: 3}
@@ -13055,6 +13058,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
       objectReference: {fileID: 0}
+    - target: {fileID: 6395806524903139178, guid: ac5b7facf9f49874f91ee6d89010aa40,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 6395806524903139178, guid: ac5b7facf9f49874f91ee6d89010aa40,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 6395806524903139178, guid: ac5b7facf9f49874f91ee6d89010aa40,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac5b7facf9f49874f91ee6d89010aa40, type: 3}
 --- !u!1001 &6457848358856527680
@@ -13669,6 +13687,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 852007124}
     m_Modifications:
+    - target: {fileID: 588630908839132766, guid: c78528f0f82dab84589f8ebc6c96f82f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 588630908839132766, guid: c78528f0f82dab84589f8ebc6c96f82f,
+        type: 3}
+      propertyPath: m_fontSizeMin
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 588630908839132766, guid: c78528f0f82dab84589f8ebc6c96f82f,
+        type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2513476303179628126, guid: c78528f0f82dab84589f8ebc6c96f82f,
         type: 3}
       propertyPath: m_Camera
@@ -13819,10 +13852,40 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6758804161567092445, guid: c78528f0f82dab84589f8ebc6c96f82f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758804161567092445, guid: c78528f0f82dab84589f8ebc6c96f82f,
+        type: 3}
+      propertyPath: m_fontSizeMin
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758804161567092445, guid: c78528f0f82dab84589f8ebc6c96f82f,
+        type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7606697938692387999, guid: c78528f0f82dab84589f8ebc6c96f82f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -0.0000019073486
+      objectReference: {fileID: 0}
+    - target: {fileID: 8542629548971456391, guid: c78528f0f82dab84589f8ebc6c96f82f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 26.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8542629548971456391, guid: c78528f0f82dab84589f8ebc6c96f82f,
+        type: 3}
+      propertyPath: m_fontSizeMin
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8542629548971456391, guid: c78528f0f82dab84589f8ebc6c96f82f,
+        type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8924720852977456631, guid: c78528f0f82dab84589f8ebc6c96f82f,
         type: 3}
