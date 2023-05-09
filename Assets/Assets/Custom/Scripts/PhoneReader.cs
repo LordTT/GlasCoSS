@@ -16,6 +16,7 @@ public class PhoneReader : MonoBehaviour
     List<double> correctnessR;
     List<string> optionsR;
     GameObject hud;
+    EvaluationScript evaluator;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,8 @@ public class PhoneReader : MonoBehaviour
 
         JsonParsing parser = GameObject.Find("ScenarioReader").GetComponent<JsonParsing>();
         S[] s = parser.rootObject.scenario.results.s;
+
+        evaluator = GameObject.Find("Evaluator").GetComponent<EvaluationScript>();
 
         TMP_Dropdown dropdownS = GameObject.Find("S").GetComponentInChildren<TMP_Dropdown>();
 
@@ -125,6 +128,7 @@ public class PhoneReader : MonoBehaviour
         } else if (correctnessS[change.value] == 1.0 ){
             hud.GetComponent<HudScript>().Notify("Cette decision est parfaite", 2, Color.green);
         }
+        evaluator.playerS = change.value;
     }
     void DropdownValueChangedC(TMP_Dropdown change)
     {
@@ -148,6 +152,7 @@ public class PhoneReader : MonoBehaviour
         {
             hud.GetComponent<HudScript>().Notify("Cette decision est parfaite", 2, Color.green);
         }
+        evaluator.playerC = change.value;
     }
     void DropdownValueChangedA(TMP_Dropdown change)
     {
@@ -171,6 +176,7 @@ public class PhoneReader : MonoBehaviour
         {
             hud.GetComponent<HudScript>().Notify("Cette decision est parfaite", 2, Color.green);
         }
+        evaluator.playerA = change.value;
     }
     void DropdownValueChangedR(TMP_Dropdown change)
     {
@@ -194,6 +200,7 @@ public class PhoneReader : MonoBehaviour
         {
             hud.GetComponent<HudScript>().Notify("Cette decision est parfaite", 2, Color.green);
         }
+        evaluator.playerR = change.value;
     }
 }
 

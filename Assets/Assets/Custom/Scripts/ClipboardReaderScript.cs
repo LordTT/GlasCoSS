@@ -14,6 +14,7 @@ public class ClipboardReaderScript : MonoBehaviour
     TMP_Dropdown dropdownPhys;
     TMP_Dropdown dropdownSpeech;
     TMP_Text totalText;
+    EvaluationScript evaluator;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,8 @@ public class ClipboardReaderScript : MonoBehaviour
         totalText = GameObject.Find("Total").GetComponentInChildren<TMP_Text>();
         hud = GameObject.Find("HudCanvas");
         JsonParsing parser = GameObject.Find("ScenarioReader").GetComponent<JsonParsing>();
+
+        evaluator = GameObject.Find("Evaluator").GetComponent<EvaluationScript>();
 
         eyeValue = parser.rootObject.scenario.patient.eye;
         physValue = parser.rootObject.scenario.patient.physical;
@@ -64,6 +67,7 @@ public class ClipboardReaderScript : MonoBehaviour
         }
 
         setTotal(totalText, Mathf.Abs(dropdownEye.value - 4 + dropdownSpeech.value - 5 + dropdownPhys.value - 6));
+        evaluator.playerEye = Mathf.Abs(dropdownEye.value - 4);
     }
     void PhysDropdownValueChanged(TMP_Dropdown change)
     {
@@ -77,6 +81,7 @@ public class ClipboardReaderScript : MonoBehaviour
         }
 
         setTotal(totalText, Mathf.Abs(dropdownEye.value - 4 + dropdownSpeech.value - 5 + dropdownPhys.value - 6));
+        evaluator.playerPhysical = Mathf.Abs(dropdownEye.value - 6);
     }
     void SpeechDropdownValueChanged(TMP_Dropdown change)
     {
@@ -90,5 +95,6 @@ public class ClipboardReaderScript : MonoBehaviour
         }
 
         setTotal(totalText, Mathf.Abs(dropdownEye.value - 4 + dropdownSpeech.value - 5 + dropdownPhys.value - 6));
+        evaluator.playerSpeech = Mathf.Abs(dropdownEye.value - 5);
     }
 }

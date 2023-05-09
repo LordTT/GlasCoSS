@@ -23,8 +23,9 @@ public class VoiceRecog : MonoBehaviour
     void Start()
     {
         m_Keywords = new string[2];
-        m_Keywords[0] = "Diagnostic";
+        m_Keywords[0] = "Notes";
         m_Keywords[1] = "Stop";
+       
         m_Recognizer = new KeywordRecognizer(m_Keywords);
         m_Recognizer.OnPhraseRecognized += OnPhraseRecognized;
         m_Recognizer.Start();
@@ -45,7 +46,7 @@ public class VoiceRecog : MonoBehaviour
             }
         }
         if (args.text == m_Keywords[1]) {
-            Debug.Log("Diag");
+            Debug.Log("Stop");
             _object.SetActive(false);
         }
     }
