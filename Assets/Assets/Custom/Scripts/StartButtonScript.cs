@@ -10,11 +10,10 @@ public class StartButtonScript : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("XR Rig");
-        Debug.Log("ah");
     }
 
     public void TaskOnClick()
     {
-        player.transform.localPosition = new Vector3(-6, player.transform.localPosition.y, 1);
+        player.transform.localPosition = new Vector3(player.transform.localPosition.x + 2, player.transform.localPosition.y, player.transform.localPosition.z);
     }
 }
