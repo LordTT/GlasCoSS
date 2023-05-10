@@ -10,7 +10,8 @@ public class EndButtonScript : MonoBehaviour
     TMP_Text scar;
     TMP_Text final;
     GameObject canvas;
-
+    [SerializeField]
+    AudioSource audio;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +30,8 @@ public class EndButtonScript : MonoBehaviour
     public void TaskOnClick()
     {
         canvas.SetActive(true);
+
+        audio.Stop();
 
         evaluator.EndTimer();
         float finalScore = evaluator.Evaluate();

@@ -7,6 +7,9 @@ public class StartButtonScript : MonoBehaviour
     GameObject player;
     EvaluationScript evaluator;
 
+    [SerializeField]
+    AudioSource audio;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,5 +21,6 @@ public class StartButtonScript : MonoBehaviour
     {
         player.transform.localPosition = new Vector3(player.transform.localPosition.x + 2, player.transform.localPosition.y, player.transform.localPosition.z);
         evaluator.StartTimer();
+        audio.Play();
     }
 }
