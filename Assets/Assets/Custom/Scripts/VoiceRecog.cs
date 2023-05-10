@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Windows.Speech;
+//using UnityEngine.Windows.Speech;
 
 public class VoiceRecog : MonoBehaviour
 {
@@ -16,12 +16,12 @@ public class VoiceRecog : MonoBehaviour
 
     bool isObjectActive;
 
-    private KeywordRecognizer m_Recognizer;
+    //private KeywordRecognizer m_Recognizer;
 
 
     // Start is called before the first frame update
     void Start()
-    {
+    {/**
         m_Keywords = new string[2];
         m_Keywords[0] = "Notes";
         m_Keywords[1] = "Stop";
@@ -48,6 +48,6 @@ public class VoiceRecog : MonoBehaviour
         if (args.text == m_Keywords[1]) {
             Debug.Log("Stop");
             _object.SetActive(false);
-        }
+        }**/
     }
 }
