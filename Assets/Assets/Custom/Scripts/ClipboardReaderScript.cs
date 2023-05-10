@@ -47,9 +47,10 @@ public class ClipboardReaderScript : MonoBehaviour
             SpeechDropdownValueChanged(dropdownSpeech);
         });
 
+        setTotal(totalText, Mathf.Abs(dropdownEye.value - 4 + dropdownSpeech.value - 5 + dropdownPhys.value - 6));
+
         gameObject.SetActive(false);
 
-        setTotal(totalText, Mathf.Abs(dropdownEye.value - 4 + dropdownSpeech.value - 5 + dropdownPhys.value - 6));
     }
 
     void setTotal(TMP_Text text, int total) {
@@ -57,7 +58,7 @@ public class ClipboardReaderScript : MonoBehaviour
     }
     void EyeDropdownValueChanged(TMP_Dropdown change)
     {
-        if (change.value == eyeValue)
+        if (Mathf.Abs(change.value - 4) == eyeValue)
         {
             hud.GetComponent<HudScript>().Notify("L'ouverture des yeux a ete correctement diagnosiquee", 2, Color.green);
         }
@@ -67,11 +68,12 @@ public class ClipboardReaderScript : MonoBehaviour
         }
 
         setTotal(totalText, Mathf.Abs(dropdownEye.value - 4 + dropdownSpeech.value - 5 + dropdownPhys.value - 6));
-        evaluator.playerEye = Mathf.Abs(dropdownEye.value - 4);
+        evaluator.playerEye = Mathf.Abs(change.value - 4);
+
     }
     void PhysDropdownValueChanged(TMP_Dropdown change)
     {
-        if (change.value == physValue)
+        if (Mathf.Abs(change.value - 6) == physValue)
         {
             hud.GetComponent<HudScript>().Notify("La reponse moteur a ete correctement diagnosiquee", 2, Color.green);
         }
@@ -81,11 +83,11 @@ public class ClipboardReaderScript : MonoBehaviour
         }
 
         setTotal(totalText, Mathf.Abs(dropdownEye.value - 4 + dropdownSpeech.value - 5 + dropdownPhys.value - 6));
-        evaluator.playerPhysical = Mathf.Abs(dropdownPhys.value - 6);
+        evaluator.playerPhysical = Mathf.Abs(change.value - 6);
     }
     void SpeechDropdownValueChanged(TMP_Dropdown change)
     {
-        if (change.value == speechValue)
+        if (Mathf.Abs(change.value - 5) == speechValue)
         {
             hud.GetComponent<HudScript>().Notify("La reponse verbale a ete correctement diagnosiquee", 2, Color.green);
         }
@@ -95,6 +97,6 @@ public class ClipboardReaderScript : MonoBehaviour
         }
 
         setTotal(totalText, Mathf.Abs(dropdownEye.value - 4 + dropdownSpeech.value - 5 + dropdownPhys.value - 6));
-        evaluator.playerSpeech = Mathf.Abs(dropdownSpeech.value - 5);
+        evaluator.playerSpeech = Mathf.Abs(change.value - 5);
     }
 }

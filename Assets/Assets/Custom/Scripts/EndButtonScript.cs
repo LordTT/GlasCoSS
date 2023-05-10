@@ -12,6 +12,8 @@ public class EndButtonScript : MonoBehaviour
     GameObject canvas;
     [SerializeField]
     AudioSource audio;
+    GameObject player;
+
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +25,8 @@ public class EndButtonScript : MonoBehaviour
 
 
         canvas = GameObject.Find("CanvasSummary");
+        player = GameObject.Find("XR Rig");
+
 
         canvas.SetActive(false);
     }
@@ -36,8 +40,10 @@ public class EndButtonScript : MonoBehaviour
         evaluator.EndTimer();
         float finalScore = evaluator.Evaluate();
 
+        player.transform.localPosition = new Vector3(player.transform.localPosition.x - 6, player.transform.localPosition.y, player.transform.localPosition.z - 2);
+
         //list in galsgow the glasgow scores agaist the real ones and the time in french wiht /n/n
-        glasgow.text = "Yeux Vous:" + evaluator.playerEye + " / réel:" + evaluator.realEye + "\n\nParole Vous:" + evaluator.playerSpeech + " / réel:" + evaluator.realSpeech + "\n\nCorps Vous:" + evaluator.playerPhysical + " / réel:" + evaluator.realPhysical + "\n\n" + "Temps: " + evaluator.playerTime.ToString("F2") + "s";
+        glasgow.text = "Yeux vous:" + evaluator.playerEye + " / réel:" + evaluator.realEye + "\n\nParole vous:" + evaluator.playerSpeech + " / réel:" + evaluator.realSpeech + "\n\nCorps vous:" + evaluator.playerPhysical + " / réel:" + evaluator.realPhysical + "\n\n" + "Temps: " + evaluator.playerTime.ToString("F2") + "s";
         //list in scar the s c a and r scores
         if(evaluator.playerS < 0.2){
             scar.text = "S : Cette decision est grave";

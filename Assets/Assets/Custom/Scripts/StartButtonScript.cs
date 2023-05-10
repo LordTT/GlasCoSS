@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class StartButtonScript : MonoBehaviour
 {
+    GameObject canvas;
+
     GameObject player;
     EvaluationScript evaluator;
 
@@ -15,6 +17,8 @@ public class StartButtonScript : MonoBehaviour
     {
         player = GameObject.Find("XR Rig");
         evaluator = GameObject.Find("Evaluator").GetComponent<EvaluationScript>();
+
+        canvas = GameObject.Find("CanvasStart");
     }
 
     public void TaskOnClick()
@@ -22,5 +26,7 @@ public class StartButtonScript : MonoBehaviour
         player.transform.localPosition = new Vector3(player.transform.localPosition.x + 2, player.transform.localPosition.y, player.transform.localPosition.z);
         evaluator.StartTimer();
         audio.Play();
+
+        canvas.SetActive(false);
     }
 }
