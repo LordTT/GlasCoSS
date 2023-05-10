@@ -81,7 +81,7 @@ public class ClipboardReaderScript : MonoBehaviour
         }
 
         setTotal(totalText, Mathf.Abs(dropdownEye.value - 4 + dropdownSpeech.value - 5 + dropdownPhys.value - 6));
-        evaluator.playerPhysical = Mathf.Abs(dropdownEye.value - 6);
+        evaluator.playerPhysical = Mathf.Abs(dropdownPhys.value - 6);
     }
     void SpeechDropdownValueChanged(TMP_Dropdown change)
     {
@@ -95,6 +95,6 @@ public class ClipboardReaderScript : MonoBehaviour
         }
 
         setTotal(totalText, Mathf.Abs(dropdownEye.value - 4 + dropdownSpeech.value - 5 + dropdownPhys.value - 6));
-        evaluator.playerSpeech = Mathf.Abs(dropdownEye.value - 5);
+        evaluator.playerSpeech = Mathf.Abs(dropdownSpeech.value - 5);
     }
 }

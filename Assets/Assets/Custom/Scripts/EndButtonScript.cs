@@ -34,7 +34,7 @@ public class EndButtonScript : MonoBehaviour
         float finalScore = evaluator.Evaluate();
 
         //list in galsgow the glasgow scores agaist the real ones and the time in french wiht /n/n
-        glasgow.text = "Glasgow: " + "\n\nVous:" + evaluator.playerEye + " / réel:" + evaluator.realEye + "\n\nVous:" + evaluator.playerSpeech + " / réel:" + evaluator.realSpeech + "\n\nVous:" + evaluator.playerPhysical + " / réel:" + evaluator.realPhysical + "\n\n" + "Temps: " + evaluator.playerTime.ToString("F2") + "s";
+        glasgow.text = "Yeux Vous:" + evaluator.playerEye + " / réel:" + evaluator.realEye + "\n\nParole Vous:" + evaluator.playerSpeech + " / réel:" + evaluator.realSpeech + "\n\nCorps Vous:" + evaluator.playerPhysical + " / réel:" + evaluator.realPhysical + "\n\n" + "Temps: " + evaluator.playerTime.ToString("F2") + "s";
         //list in scar the s c a and r scores
         if(evaluator.playerS < 0.2){
             scar.text = "S : Cette decision est grave";
