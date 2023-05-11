@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class NotesManager : MonoBehaviour
 {
@@ -12,10 +14,16 @@ public class NotesManager : MonoBehaviour
 
     bool isObjectActive;
 
+    private InputActionReference openMenuInputLeftHand, openMenuInputRightHand;
+
     void Start()
     {
         _object.SetActive(false); // TODO
         isObjectActive = false; //TODO
+    }
+
+    void Update()
+    {
     }
 
     public void Manage() {

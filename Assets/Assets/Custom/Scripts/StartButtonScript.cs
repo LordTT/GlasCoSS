@@ -27,6 +27,6 @@ public class StartButtonScript : MonoBehaviour
         evaluator.StartTimer();
         audio.Play();
 
-        canvas.SetActive(false);
+        canvas.transform.position = new Vector3(1000, 1000, 1000);
     }
 }

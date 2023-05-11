@@ -29,7 +29,14 @@ public class EvaluationScript : MonoBehaviour
         realEye = parser.rootObject.scenario.patient.eye;
         realPhysical = parser.rootObject.scenario.patient.physical;
         realSpeech = parser.rootObject.scenario.patient.speech;
-    }
+        playerEye = 4;
+        playerSpeech = 5;
+        playerPhysical = 6;
+        playerS = 0;
+        playerC = 0;
+        playerA = 0;
+        playerR = 0;
+}
 
     public void StartTimer()
     {

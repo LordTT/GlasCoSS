@@ -116,6 +116,6 @@ public class EndButtonScript : MonoBehaviour
         }
 
 
-        GameObject.Find("CanvasEnd").SetActive(false);
+        GameObject.Find("CanvasEnd").transform.position = new Vector3(1000, 1000, 1000);
     }
 }
