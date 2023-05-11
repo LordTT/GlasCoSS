@@ -78,22 +78,22 @@
 			[
 				{
 					"ID" : "1",
-					"descision" : "Il faut tout de suite operer le patient",
+					"descision" : "Je suis en intervention d'urgence",
 					"correctness" : 0.8
 				},
 				{
 					"ID" : "2",
-					"descision" : "Le patient est dans de bonnes conditions",
+					"descision" : "Je suis a l'hopital",
 					"correctness" : 0.2
 				},
 				{
 					"ID" : "3",
-					"descision" : "Il faut faire une angiographie",
+					"descision" : "Je suis dans la chambre du patient",
 					"correctness" : 1
 				},
 				{
 					"ID" : "4",
-					"descision" : "Il faut injecter du TPA",
+					"descision" : "Je suis a Lausanne",
 					"correctness" : 0
 				}
 			],
@@ -101,22 +101,22 @@
 			[
 				{
 					"ID" : "1",
-					"descision" : "Il faut tout de suite operer le patient",
+					"descision" : "J'effectue un controle Glasgow de routine",
 					"correctness" : 0.8
 				},
 				{
 					"ID" : "2",
-					"descision" : "Le patient est dans de bonnes conditions",
+					"descision" : "Je controle le patient",
 					"correctness" : 0.2
 				},
 				{
 					"ID" : "3",
-					"descision" : "Il faut faire une angiographie",
+					"descision" : "J'effectue le deuxième controle de la journée",
 					"correctness" : 1
 				},
 				{
 					"ID" : "4",
-					"descision" : "Il faut injecter du TPA",
+					"descision" : "Je travaille",
 					"correctness" : 0
 				}
 			],
@@ -124,22 +124,22 @@
 			[
 				{
 					"ID" : "1",
-					"descision" : "AAAAAAAAAAAAAAA",
+					"descision" : "Le score de Glasgow est parfait",
 					"correctness" : 0.8
 				},
 				{
 					"ID" : "2",
-					"descision" : "Le patient est dans de bonnes conditions",
+					"descision" : "Le patient est dans de graves conditions",
 					"correctness" : 0.2
 				},
 				{
 					"ID" : "3",
-					"descision" : "Il faut faire une angiographie",
+					"descision" : "Le patient a une conscience reduite",
 					"correctness" : 1
 				},
 				{
 					"ID" : "4",
-					"descision" : "Il faut injecter du TPA",
+					"descision" : "Le patient est decede",
 					"correctness" : 0
 				}
 			],
@@ -152,7 +152,7 @@
 				},
 				{
 					"ID" : "2",
-					"descision" : "Le patient est dans de bonnes conditions",
+					"descision" : "Il ne faut rien faire",
 					"correctness" : 0.2
 				},
 				{

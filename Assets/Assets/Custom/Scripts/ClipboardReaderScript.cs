@@ -60,11 +60,11 @@ public class ClipboardReaderScript : MonoBehaviour
     {
         if (Mathf.Abs(change.value - 4) == eyeValue)
         {
-            hud.GetComponent<HudScript>().Notify("L'ouverture des yeux a ete correctement diagnosiquee", 2, Color.green);
+            hud.GetComponent<HudScript>().Notify("L'ouverture des yeux a ete correctement diagnostiquee", 2, Color.green);
         }
         else 
         {
-            hud.GetComponent<HudScript>().Notify("L'ouverture des yeux n'a pas ete correctement diagnosiquee", 2, Color.red);
+            hud.GetComponent<HudScript>().Notify("L'ouverture des yeux n'a pas ete correctement diagnostiquee", 2, Color.red);
         }
 
         setTotal(totalText, Mathf.Abs(dropdownEye.value - 4 + dropdownSpeech.value - 5 + dropdownPhys.value - 6));
@@ -75,11 +75,11 @@ public class ClipboardReaderScript : MonoBehaviour
     {
         if (Mathf.Abs(change.value - 6) == physValue)
         {
-            hud.GetComponent<HudScript>().Notify("La reponse moteur a ete correctement diagnosiquee", 2, Color.green);
+            hud.GetComponent<HudScript>().Notify("La reponse moteur a ete correctement diagnostiquee", 2, Color.green);
         }
         else
         {
-            hud.GetComponent<HudScript>().Notify("La reponse moteur n'a pas ete correctement diagnosiquee", 2, Color.red);
+            hud.GetComponent<HudScript>().Notify("La reponse moteur n'a pas ete correctement diagnostiquee", 2, Color.red);
         }
 
         setTotal(totalText, Mathf.Abs(dropdownEye.value - 4 + dropdownSpeech.value - 5 + dropdownPhys.value - 6));
@@ -89,11 +89,11 @@ public class ClipboardReaderScript : MonoBehaviour
     {
         if (Mathf.Abs(change.value - 5) == speechValue)
         {
-            hud.GetComponent<HudScript>().Notify("La reponse verbale a ete correctement diagnosiquee", 2, Color.green);
+            hud.GetComponent<HudScript>().Notify("La reponse verbale a ete correctement diagnostiquee", 2, Color.green);
         }
         else
         {
-            hud.GetComponent<HudScript>().Notify("La reponse verbale n'a pas ete correctement diagnosiquee", 2, Color.red);
+            hud.GetComponent<HudScript>().Notify("La reponse verbale n'a pas ete correctement diagnostiquee", 2, Color.red);
         }
 
         setTotal(totalText, Mathf.Abs(dropdownEye.value - 4 + dropdownSpeech.value - 5 + dropdownPhys.value - 6));
