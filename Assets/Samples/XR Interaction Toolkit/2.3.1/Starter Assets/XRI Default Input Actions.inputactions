@@ -2104,6 +2104,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Custom",
+            "id": "e79d242f-88fc-4fbb-916b-cb8c214fdd1f",
+            "actions": [
+                {
+                    "name": "Notes",
+                    "type": "Button",
+                    "id": "da21c09c-9e19-4c44-8684-1dc8e3f19595",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "676e0aa6-caa4-4bde-b68c-5be59dde23ce",
+                    "path": "<OculusTouchController>/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Notes",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [

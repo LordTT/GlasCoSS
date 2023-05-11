@@ -116,8 +116,6 @@ public class JsonParsing : MonoBehaviour
 
     private void Awake()
     {
-        Debug.Log(jsonFile);
         rootObject = JsonUtility.FromJson<RootObject>(jsonFile.text);
-        Debug.Log("json parsed");
     }
 }

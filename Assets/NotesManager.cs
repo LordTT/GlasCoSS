@@ -14,19 +14,28 @@ public class NotesManager : MonoBehaviour
 
     bool isObjectActive;
 
-    private InputActionReference openMenuInputLeftHand, openMenuInputRightHand;
+    public InputActionReference toggleReference = null;
+
+    private void Awake()
+    {
+        toggleReference.action.started += Manage;
+    }
+
+    private void OnDestroy()
+    {
+        toggleReference.action.started -= Manage;
+    }
 
     void Start()
     {
-        _object.SetActive(false); // TODO
-        isObjectActive = false; //TODO
+        _object.SetActive(false);
+        isObjectActive = false;
     }
 
-    void Update()
+
+
+    public void Manage(InputAction.CallbackContext context)
     {
-    }
-
-    public void Manage() {
         Debug.Log("Diag");
         _object.SetActive(!isObjectActive);
         isObjectActive = !isObjectActive;
@@ -36,5 +45,5 @@ public class NotesManager : MonoBehaviour
                 mainCamera.transform.forward * 0.7f;
         }
     }
-
 }
+   

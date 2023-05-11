@@ -1692,12 +1692,13 @@ MonoBehaviour:
       m_Name: Directional Anchor Rotation
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 04f67687-bdb0-4388-876f-941bb2bcc564
+      m_Id: 0a72890c-b3bc-4ec1-adad-df62dfa843d9
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 0}
+    m_Reference: {fileID: -8811388872089202044, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
   m_TranslateAnchorAction:
     m_UseReference: 1
     m_Action:
@@ -3213,6 +3214,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _object: {fileID: 4173213078532609445}
   mainCamera: {fileID: 111353445}
+  toggleReference: {fileID: -2440993083350545752, guid: c348712bda248c246b8c49b3db54643f,
+    type: 3}
 --- !u!1001 &515675520
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10845,7 +10848,7 @@ PrefabInstance:
     - target: {fileID: 302119576054631485, guid: 474eee35474ad1b469c86fbfca60b64c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -391.5001
+      value: -391.50012
       objectReference: {fileID: 0}
     - target: {fileID: 342842051205987582, guid: 474eee35474ad1b469c86fbfca60b64c,
         type: 3}
@@ -17898,7 +17901,7 @@ RectTransform:
   m_GameObject: {fileID: 4173213078532609445}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: -1}
   m_LocalPosition: {x: 0, y: 0, z: 1.206}
-  m_LocalScale: {x: 0.001, y: 0.001, z: 0.0020000008}
+  m_LocalScale: {x: 0.0008, y: 0.0008, z: 0.0016000005}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2566326484742537704}

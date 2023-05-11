@@ -16,6 +16,6 @@ public class UiFollowPlayerScript : MonoBehaviour
     void Update()
     {
         transform.rotation = Quaternion.LookRotation(transform.position - _object.transform.position);
-        transform.position = Camera.main.transform.position + Camera.main.transform.forward * 0.7f + Camera.main.transform.right * 0.3f; ;
+        transform.position = Camera.main.transform.position + Camera.main.transform.forward * 0.5f - Camera.main.transform.up * 0.1f;
     }
 }
